@@ -1,0 +1,74 @@
+Combination of st2018=vecu_emul_emul_2018_2018_10bin_LFVStVecU.txt  tt2018=vecu_emul_emul_2018_2018_10bin_LFVTtVecU.txt
+imax 2 number of bins
+jmax 5 number of processes minus 1
+kmax 56 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *       st2018  vecu_emul_emul_2018_2018_10bin_LFVStVecU.root vecu_emul_emul_2018/$PROCESS vecu_emul_emul_2018/$PROCESS_$SYSTEMATIC
+shapes *       tt2018  vecu_emul_emul_2018_2018_10bin_LFVTtVecU.root vecu_emul_emul_2018/$PROCESS vecu_emul_emul_2018/$PROCESS_$SYSTEMATIC
+----------------------------------------------------------------------------------------------------------------------------------
+bin          st2018  tt2018
+observation  168     360   
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                           st2018     st2018     st2018     st2018     st2018     tt2018     tt2018     tt2018     tt2018     tt2018   
+process                                       LFVStVecU  nonprompt  WZ         VV         TX         LFVTtVecU  nonprompt  WZ         VV         TX       
+process                                       -1         1          2          3          4          0          1          2          3          4        
+rate                                          2538.3     60.3392    69.112     11.1402    35.8714    62.7786    138.562    133.228    23.4198    54.6762  
+----------------------------------------------------------------------------------------------------------------------------------
+Y2018MET_               shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018eleIDStat_         shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018hfstats1_          shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018hfstats2_          shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jer_               shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesAbsoluteStat_   shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesRelativeJEREC1_   shape               1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesRelativeJEREC2_   shape               1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesRelativePtEC1_   shape                1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesRelativePtEC2_   shape                1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesRelativeSample_   shape               1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesRelativeStatEC_   shape               1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesRelativeStatFSR_   shape              1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesRelativeStatHF_   shape               1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018jesTimePtEta_      shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018lfstats1_          shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018lfstats2_          shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+Y2018muIDStat_          shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+cferr1_                 shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+cferr2_                 shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+eleF_                   shape                 -          1.0        -          -          -          -          1.0        -          -          -        
+eleIDSys_               shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+eleR_                   shape                 -          1.0        -          -          -          -          1.0        -          -          -        
+hf_                     shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesAbsoluteMPFBias_     shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesAbsoluteScale_       shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesFlavorQCD_           shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesFragmentation_       shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesHEMIssue_            shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesPileUpDataMC_        shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesPileUpPtBB_          shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesPileUpPtEC1_         shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesPileUpPtEC2_         shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesPileUpPtHF_          shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesPileUpPtRef_         shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesRelativeBal_         shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesRelativeFSR_         shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesRelativeJERHF_       shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesRelativePtBB_        shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesRelativePtHF_        shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesSinglePionECAL_      shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+jesSinglePionHCAL_      shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+lf_                     shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+lumi2018_               lnN                   1.025      1.025      1.025      1.025      1.025      1.025      1.025      1.025      1.025      1.025    
+lumiBeamCC_             lnN                   1.002      1.002      1.002      1.002      1.002      1.002      1.002      1.002      1.002      1.002    
+lumiLengthS_            lnN                   1.002      1.002      1.002      1.002      1.002      1.002      1.002      1.002      1.002      1.002    
+lumiXY_                 lnN                   1.02       1.02       1.02       1.02       1.02       1.02       1.02       1.02       1.02       1.02     
+muF_                    shape                 -          1.0        -          -          -          -          1.0        -          -          -        
+muIDSys_                shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+muR_                    shape                 -          1.0        -          -          -          -          1.0        -          -          -        
+pu_                     shape                 1.0        -          1.0        1.0        1.0        1.0        -          1.0        1.0        1.0      
+trigBias_               shape                 -          1.0        -          -          -          -          1.0        -          -          -        
+unc_nonprompt           lnN                   -          1.1        -          -          -          -          1.1        -          -          -        
+xsec_tx                 lnN                   -          -          -          -          1.12       -          -          -          -          1.12     
+xsec_vv                 lnN                   -          -          -          1.06       -          -          -          -          1.06       -        
+xsec_wz                 lnN                   -          -          1.12       -          -          -          -          1.12       -          -        
+st2018 autoMCStats 0 0 1
+tt2018 autoMCStats 0 0 1

@@ -1,0 +1,72 @@
+imax    1 number of bins
+jmax    4 number of processes minus 1
+kmax    * number of nuisance parameters
+--------------------------------------------------------------------------------
+shapes * vecu_emul_emul_2016 vecu_emul_emul_2016_2016_10bin_LFVTtVecU.root vecu_emul_emul_2016/$PROCESS vecu_emul_emul_2016/$PROCESS_$SYSTEMATIC
+--------------------------------------------------------------------------------
+bin          vecu_emul_emul_2016 
+observation  213.0           
+--------------------------------------------------------------------------------
+bin                              vecu_emul_emul_2016 vecu_emul_emul_2016 vecu_emul_emul_2016 vecu_emul_emul_2016 vecu_emul_emul_2016 
+process                          VV              WZ              TX              nonprompt       LFVTtVecU       
+process                          1               2               3               4               0               
+rate                             14.4614         60.4889         34.8669         130.183         40.0794         
+--------------------------------------------------------------------------------
+Y2016MET_                shape   1               1               1               -               1               
+Y2016eleIDStat_          shape   1               1               1               -               1               
+Y2016hfstats1_           shape   1               1               1               -               1               
+Y2016hfstats2_           shape   1               1               1               -               1               
+Y2016jer_                shape   1               1               1               -               1               
+Y2016jesAbsoluteStat_    shape   1               1               1               -               1               
+Y2016jesRelativeJEREC1_  shape   1               1               1               -               1               
+Y2016jesRelativeJEREC2_  shape   1               1               1               -               1               
+Y2016jesRelativePtEC1_   shape   1               1               1               -               1               
+Y2016jesRelativePtEC2_   shape   1               1               1               -               1               
+Y2016jesRelativeSample_  shape   1               1               1               -               1               
+Y2016jesRelativeStatEC_  shape   1               1               1               -               1               
+Y2016jesRelativeStatFSR_ shape   1               1               1               -               1               
+Y2016jesRelativeStatHF_  shape   1               1               1               -               1               
+Y2016jesTimePtEta_       shape   1               1               1               -               1               
+Y2016lfstats1_           shape   1               1               1               -               1               
+Y2016lfstats2_           shape   1               1               1               -               1               
+Y2016muIDStat_           shape   1               1               1               -               1               
+cferr1_                  shape   1               1               1               -               1               
+cferr2_                  shape   1               1               1               -               1               
+eleF_                    shape   -               -               -               1               -               
+eleIDSys_                shape   1               1               1               -               1               
+eleR_                    shape   -               -               -               1               -               
+hf_                      shape   1               1               1               -               1               
+jesAbsoluteMPFBias_      shape   1               1               1               -               1               
+jesAbsoluteScale_        shape   1               1               1               -               1               
+jesFlavorQCD_            shape   1               1               1               -               1               
+jesFragmentation_        shape   1               1               1               -               1               
+jesPileUpDataMC_         shape   1               1               1               -               1               
+jesPileUpPtBB_           shape   1               1               1               -               1               
+jesPileUpPtEC1_          shape   1               1               1               -               1               
+jesPileUpPtEC2_          shape   1               1               1               -               1               
+jesPileUpPtHF_           shape   1               1               1               -               1               
+jesPileUpPtRef_          shape   1               1               1               -               1               
+jesRelativeBal_          shape   1               1               1               -               1               
+jesRelativeFSR_          shape   1               1               1               -               1               
+jesRelativeJERHF_        shape   1               1               1               -               1               
+jesRelativePtBB_         shape   1               1               1               -               1               
+jesRelativePtHF_         shape   1               1               1               -               1               
+jesSinglePionECAL_       shape   1               1               1               -               1               
+jesSinglePionHCAL_       shape   1               1               1               -               1               
+lf_                      shape   1               1               1               -               1               
+lumi2016_                lnN     1.012           1.012           1.012           1.012           1.012           
+lumiBBDef_               lnN     1.004           1.004           1.004           1.004           1.004           
+lumiDynamicB_            lnN     1.005           1.005           1.005           1.005           1.005           
+lumiGhostS_              lnN     1.001           1.001           1.001           1.001           1.001           
+lumiXY_                  lnN     1.009           1.009           1.009           1.009           1.009           
+muF_                     shape   -               -               -               1               -               
+muIDSys_                 shape   1               1               1               -               1               
+muR_                     shape   -               -               -               1               -               
+prefiring_               shape   1               1               1               -               1               
+pu_                      shape   1               1               1               -               1               
+trigBias_                shape   -               -               -               1               -               
+unc_nonprompt            lnN     -               -               -               1.1             -               
+xsec_tx                  lnN     -               -               1.12            -               -               
+xsec_vv                  lnN     1.06            -               -               -               -               
+xsec_wz                  lnN     -               1.12            -               -               -               
+vecu_emul_emul_2016 autoMCStats 0 0 1
